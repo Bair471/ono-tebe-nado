@@ -9,6 +9,10 @@
   align-items: center;
 }
 
+address.footer__address {
+  box-sizing: content-box;
+}
+
 a.header__linkheader__link_active {
   text-decoration: none;
 }
@@ -302,7 +306,7 @@ a.header__linkheader__link_active {
 }
 
 .footer__address {
-  padding-right: 15.5%;
+  padding-right: 0px;
 }
 
 .footer__menu {
@@ -332,11 +336,6 @@ a.header__linkheader__link_active {
   justify-content: end;
   gap: 48px;
   list-style: none;
-}
-
-.footer__social-icon {
-  width: 48px;
-  height: 48px;
 }
 
 .footer__social-icon {
