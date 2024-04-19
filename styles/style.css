@@ -1,7 +1,8 @@
 .header {
   font-size: 18px;
   font-weight: 400;
-  padding: 92px 50px 96px;
+  padding: 136px 50px 136px;
+  padding-bottom: 96px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -148,8 +149,11 @@
 
 
 .lots {
-  padding: 179px 50px;
-  
+  padding-top: 74px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 55px;
+  margin-bottom: 146px;
 }
 
 .lots__heading {
@@ -220,6 +224,10 @@
   text-decoration: none;
 }
 
+.overlay {
+  margin-bottom: 179px;
+}
+
 .card .overlay {
   padding: 50px 40px;
   display: flex;
@@ -245,7 +253,11 @@
 .about {
   display: flex;
   gap: 25px;
-  padding: 0 50px 182px 50px;
+  padding-top: 35px;
+  padding-left: 47px;
+  margin-left: 24px;
+  margin-bottom: 180px;
+
 }
 
 .about__column:last-child {
@@ -255,7 +267,7 @@
 .about__logo {
   background-color: #000;
   border-radius: 50%;
-  margin: 0 95px;
+  margin-right: 72px;
   padding: 63px 46px;
 }
 
