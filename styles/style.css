@@ -72,12 +72,9 @@ a.header__linkheader__link_active {
   text-underline-position: under;
 }
 
-
-
 .cover {
   background: url("../images/cover.jpg") center/cover;
   color: #fff;
-
 }
 
 .cover__title {
@@ -88,6 +85,10 @@ a.header__linkheader__link_active {
   display: flex;
   flex-direction: column;
   gap: 10px;
+}
+
+.cover__title span {
+  z-index: 10;
 }
 
 .cover__description {
@@ -105,17 +106,28 @@ a.header__linkheader__link_active {
   word-spacing: 17.5px;
   text-transform: uppercase;
   margin-right: 79px;
+  z-index: 10;
 }
-
 
 .overlay {
+  position: absolute;
+  width: inherit;
   height: inherit;
-  padding: 165px 50px 50px;
   background-color: rgba(0, 0, 0, 0.6);
-  margin-bottom: 179px;
 }
 
+.cover-overlay {
+  position: absolute;
+  width: 1100px;
+  height: 757px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
 
+.card-contents {
+  height: inherit;
+  padding: 165px 50px 50px;
+  margin-bottom: 179px;
+}
 
 .aligned-text_left {
   text-align: left;
@@ -137,13 +149,9 @@ a.header__linkheader__link_active {
   letter-spacing: 0.6em;
 }
 
-
-
 .no-letter-spacing {
   letter-spacing: 0;
 }
-
-
 
 .bet-button {
   font-size: 22px;
@@ -154,9 +162,8 @@ a.header__linkheader__link_active {
   border-radius: 0;
   color: #fff;
   padding: 12px 32px;
+  z-index: 10;
 }
-
-
 
 .lots {
   padding-left: 24px;
@@ -180,7 +187,7 @@ a.header__linkheader__link_active {
 }
 
 .lots__card-list-item {
-  flex: 1 0 0%;
+  flex: 1 0 0;
   min-height: 450px;
 
 }
@@ -232,8 +239,7 @@ a.header__linkheader__link_active {
   text-decoration: none;
 }
 
-
-.card .overlay {
+.card .card-contents {
   padding: 50px 40px;
   display: flex;
   flex-direction: column;
@@ -245,12 +251,14 @@ a.header__linkheader__link_active {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: underline;
+  z-index: 10;
 }
 
 .card__text {
   line-height: 120%;
   font-size: 20px;
   font-weight: 400;
+  z-index: 10;
 }
 
 /* About */
@@ -294,7 +302,6 @@ a.header__linkheader__link_active {
   margin-top: 100px;
 }
 
-
 .footer {
   font-size: 18px;
   font-weight: 400;
@@ -304,7 +311,7 @@ a.header__linkheader__link_active {
 }
 
 .footer__address {
-  padding-right: 0px;
+  padding-right: 0;
 }
 
 .footer__menu {
