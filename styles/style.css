@@ -13,10 +13,6 @@ address.footer__address {
   box-sizing: content-box;
 }
 
-a.header__linkheader__link_active {
-  text-decoration: none;
-}
-
 .header__menu {
   flex: 0 0 auto;
   width: 33.3%;
@@ -66,7 +62,7 @@ a.header__linkheader__link_active {
 
 .address {
   flex: 0 0 auto;
-  width: 33.3%;
+  width: 30.3%;
   line-height: 135%;
   font-style: normal;
   text-underline-position: under;
