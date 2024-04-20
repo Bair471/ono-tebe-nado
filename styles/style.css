@@ -295,6 +295,10 @@ a.header__linkheader__link_active {
   padding-right: 0;
 }
 
+.address-contents {
+  width: 225px;
+}
+
 .footer__menu {
   flex: 0 0 auto;
   width: auto;
