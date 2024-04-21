@@ -120,7 +120,7 @@
 .header__logo-image {
   max-height: 100%;
   object-fit: contain;
-  margin-left: -35px;
+  margin-left: -40px;
 }
 
 .header__address {
@@ -178,7 +178,7 @@
 }
 
 .lots {
-  padding: 180px 50px 50px 50px;
+  padding: 179px 50px 146px 24px;
 }
 
 .lots__heading {
@@ -281,14 +281,15 @@
   display: grid;
   grid-template-columns: min-content 1fr;
   column-gap: 28px;
-  padding: 96px 50px 180px 50px;
+  padding: 0px 24px 180px 24px;
 }
 
 .about__logo {
   display: flex;
   width: 240px;
   height: 240px;
-  margin: 0 94px;
+  margin-left: 47px;
+  margin-right: 72px;
   border-radius: 50%;
   background: #000;
 }
@@ -377,7 +378,7 @@ p.about__text_two {
   width: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 323px;
+  margin-left: 230px;
 }
 
 .footer__menu-link {
