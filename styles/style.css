@@ -340,6 +340,7 @@
   line-height: normal;
   text-underline-offset: 2px;
   transition: text-underline-offset 0.3s ease;
+  text-underline-position: under;
 }
 
 p.about__text_one {
@@ -379,10 +380,6 @@ p.about__text_two {
   display: flex;
   flex-direction: column;
   margin-left: 230px;
-}
-
-.footer__menu-link {
-  text-underline-position: under;
 }
 
 .footer__menu-link_active {
