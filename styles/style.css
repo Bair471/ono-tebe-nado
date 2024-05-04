@@ -280,8 +280,7 @@
 .about {
   display: grid;
   grid-template-columns: min-content 1fr;
-  column-gap: 28px;
-  padding: 0px 24px 180px 24px;
+  padding: 35px 24px 180px 24px;
 }
 
 .about__logo {
