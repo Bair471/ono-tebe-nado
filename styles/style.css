@@ -344,7 +344,7 @@
   text-underline-position: under;
 }
 
-p.about__text_a {
+p.about__text_up {
   width: 687px;
   height: 120px;
   font-size: 20px;
@@ -352,7 +352,7 @@ p.about__text_a {
   margin-bottom: 24px;
 }
 
-p.about__text_b {
+p.about__text_down {
   width: 100%;
   font-size: 20px;
   font-weight: 400;
@@ -379,7 +379,7 @@ p.about__text_b {
   width: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 204.48px;
+  margin-left: 201.48px;
   margin-top: -1px;
 }
 
