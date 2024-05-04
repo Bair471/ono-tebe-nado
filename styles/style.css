@@ -73,7 +73,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  padding: 92px 50px 96px 51px;
+  padding: 92px 51px 96px 51px;
 }
 
 .header__links-list {
@@ -180,7 +180,7 @@
 }
 
 .lots {
-  padding: 179px 50px 146px 24px;
+  padding: 177px 50px 146px 24px;
 }
 
 .lots__heading {
@@ -344,8 +344,7 @@
   text-underline-position: under;
 }
 
-
-p.about__text_one {
+p.about__text_a {
   width: 687px;
   height: 120px;
   font-size: 20px;
@@ -353,9 +352,9 @@ p.about__text_one {
   margin-bottom: 24px;
 }
 
-p.about__text_two {
-  width: 688px;
-  height: 168px;
+p.about__text_b {
+  width: 100%;
+  height: 100%;
   font-size: 20px;
   font-weight: 400;
 }
@@ -381,7 +380,8 @@ p.about__text_two {
   width: auto;
   display: flex;
   flex-direction: column;
-  margin-left: 185.48px;
+  margin-left: 190.48px;
+  margin-top: -2px
 }
 
 .footer__menu-link_active {
@@ -396,6 +396,7 @@ p.about__text_two {
   gap: 48px;
   list-style: none;
   margin-left: 90px;
+  margin-top: -2px;
 }
 
 .footer__social-icon {
