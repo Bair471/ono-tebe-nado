@@ -353,8 +353,7 @@ p.about__text_a {
 }
 
 p.about__text_b {
-  width: 689px;
-  height: 169px;
+  width: 100%;
   font-size: 20px;
   font-weight: 400;
 }
